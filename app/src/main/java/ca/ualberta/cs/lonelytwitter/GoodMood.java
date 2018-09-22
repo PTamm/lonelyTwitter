@@ -17,6 +17,14 @@ public class GoodMood extends CurrentMood {
         super(date);
     }
 
+    public Date getDate(){
+        return super.getDate();
+    }
+
+    public void setDate(Date date){
+        super.setDate(date);
+    }
+
     @Override
     public String showMood(){
         this.currentMood = "I am in a good mood!";
