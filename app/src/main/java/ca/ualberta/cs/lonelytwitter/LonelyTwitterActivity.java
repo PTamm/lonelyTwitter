@@ -1,3 +1,8 @@
+/**
+ * LonelyTwitter class runs the main application activity
+ *
+ * @author: Joshua Campbell, Patrick Tamm
+ */
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;

@@ -31,6 +31,10 @@ public abstract class Tweet implements Tweetable{
         return this.message;
     }
 
+    public String toString(){
+        return getMessage();
+    }
+
     public void setMessage(String message) throws TweetTooLongException {
         if (message.length() <= this.MAX_CHARS){
             this.message = message;
