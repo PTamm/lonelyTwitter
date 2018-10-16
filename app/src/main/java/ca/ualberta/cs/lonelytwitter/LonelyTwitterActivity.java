@@ -103,10 +103,8 @@ public class LonelyTwitterActivity extends Activity {
 			Type listType = new TypeToken<ArrayList<NormalTweet>>(){}.getType();
 			tweetList = gson.fromJson(in, listType);
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			tweetList = new ArrayList<NormalTweet>();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			throw new RuntimeException();
 		}
 	}*/
@@ -121,10 +119,8 @@ public class LonelyTwitterActivity extends Activity {
 			gson.toJson(tweetList, writer);
 			writer.flush();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			throw new RuntimeException();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			throw new RuntimeException();
 		}
 	}*/
